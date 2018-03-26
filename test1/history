@@ -1,0 +1,4 @@
+eth.getBlook(0)
+eth.nonce
+a
+eth.getBlock(0)

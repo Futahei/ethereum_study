@@ -1,0 +1,22 @@
+INFO [03-27|00:03:33] Maximum peer count                       ETH=0 LES=0 total=0
+INFO [03-27|00:03:33] Starting peer-to-peer node               instance=Geth/v1.8.2-stable-b8b9f7f4/windows-amd64/go1.9.2
+INFO [03-27|00:03:33] Allocated cache and file handles         database=g:\\ProgramFiles\\TestGeth\\test1\\geth\\chaindata cache=768 handles=1024
+WARN [03-27|00:03:33] Upgrading database to use lookup entries 
+INFO [03-27|00:03:33] Database deduplication successful        deduped=0
+INFO [03-27|00:03:33] Initialised chain configuration          config="{ChainID: 15 Homestead: <nil> DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Constantinople: <nil> Engine: unknown}"
+INFO [03-27|00:03:33] Disk storage enabled for ethash caches   dir=g:\\ProgramFiles\\TestGeth\\test1\\geth\\ethash count=3
+INFO [03-27|00:03:33] Disk storage enabled for ethash DAGs     dir=C:\\Users\\Futahei\\AppData\\Ethash             count=2
+INFO [03-27|00:03:33] Initialising Ethereum protocol           versions="[63 62]" network=9991457239471
+INFO [03-27|00:03:33] Loaded most recent local header          number=0 hash=7b2e8b…7e0432 td=16384
+INFO [03-27|00:03:33] Loaded most recent local full block      number=0 hash=7b2e8b…7e0432 td=16384
+INFO [03-27|00:03:33] Loaded most recent local fast block      number=0 hash=7b2e8b…7e0432 td=16384
+INFO [03-27|00:03:33] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [03-27|00:03:33] Starting P2P networking 
+INFO [03-27|00:03:33] RLPx listener up                         self="enode://39076a7c6f892e12b0919db8803c14b86e025b09383ad410271c7fa26495ba477b6a452a9eb3453541ce8eaefd018a2213a5fb590e4717f6ce0a01acbf1a67ea@[::]:30303?discport=0"
+INFO [03-27|00:03:33] IPC endpoint opened                      url=\\\\.\\pipe\\geth.ipc
+INFO [03-27|00:05:27] IPC endpoint closed                      endpoint=\\\\.\\pipe\\geth.ipc
+INFO [03-27|00:05:27] Blockchain manager stopped 
+INFO [03-27|00:05:27] Stopping Ethereum protocol 
+INFO [03-27|00:05:27] Ethereum protocol stopped 
+INFO [03-27|00:05:27] Transaction pool stopped 
+INFO [03-27|00:05:27] Database closed                          database=g:\\ProgramFiles\\TestGeth\\test1\\geth\\chaindata
