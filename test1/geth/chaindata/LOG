@@ -174,3 +174,24 @@
 15:33:45.044046 db@open done T·211.3458ms
 15:34:10.599314 db@close closing
 15:34:10.602346 db@close done T·3.0316ms
+=============== May 8, 2018 (JST) ===============
+16:41:09.730268 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:41:09.730268 version@stat F·[1 1] S·560KiB[60KiB 500KiB] Sc·[0.25 0.00]
+16:41:09.730268 db@open opening
+16:41:09.735268 version@stat F·[1 1] S·560KiB[60KiB 500KiB] Sc·[0.25 0.00]
+16:41:09.746723 db@janitor F·4 G·0
+16:41:09.746723 db@open done T·16.4554ms
+16:42:18.697719 db@close closing
+16:42:18.703733 db@close done T·6.0141ms
+=============== May 8, 2018 (JST) ===============
+16:42:27.104293 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:42:27.104796 version@stat F·[1 1] S·560KiB[60KiB 500KiB] Sc·[0.25 0.00]
+16:42:27.104796 db@open opening
+16:42:27.105295 journal@recovery F·1
+16:42:27.109808 journal@recovery recovering @41
+16:42:27.123749 memdb@flush created L0@43 N·2 S·243B "Blo..ion,v14322":"Las..der,v14323"
+16:42:27.130802 version@stat F·[2 1] S·561KiB[60KiB 500KiB] Sc·[0.50 0.00]
+16:42:27.141358 db@janitor F·5 G·0
+16:42:27.141358 db@open done T·36.5611ms
+16:42:45.533433 db@close closing
+16:42:45.541422 db@close done T·7.9893ms

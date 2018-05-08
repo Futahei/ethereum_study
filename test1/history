@@ -97,3 +97,4 @@ cnt.set.sendTransaction(6,{from:eth.accounts[0]})
 cnt.get()
 eth.mining
 miner.stop()
+eth.accounts

@@ -1,0 +1,1 @@
+geth --datadir ./test1 --networkid 15 --maxpeers 0 --nodiscover console 2>> node.log
