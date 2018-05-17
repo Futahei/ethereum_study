@@ -6880,3 +6880,32 @@ INFO [05-08|16:42:45] Stopping Ethereum protocol
 INFO [05-08|16:42:45] Ethereum protocol stopped 
 INFO [05-08|16:42:45] Transaction pool stopped 
 INFO [05-08|16:42:45] Database closed                          database=c:\\Geth\\test1\\geth\\chaindata
+INFO [05-17|14:12:58] Maximum peer count                       ETH=0 LES=0 total=0
+INFO [05-17|14:12:58] Starting peer-to-peer node               instance=Geth/v1.8.6-stable-12683fec/windows-amd64/go1.10.1
+INFO [05-17|14:12:58] Allocated cache and file handles         database=u:\\geth\\test1\\geth\\chaindata cache=768 handles=1024
+INFO [05-17|14:12:58] Initialised chain configuration          config="{ChainID: 15 Homestead: <nil> DAO: <nil> DAOSupport: false EIP150: <nil> EIP155: <nil> EIP158: <nil> Byzantium: <nil> Constantinople: <nil> Engine: unknown}"
+INFO [05-17|14:12:58] Disk storage enabled for ethash caches   dir=u:\\geth\\test1\\geth\\ethash count=3
+INFO [05-17|14:12:58] Disk storage enabled for ethash DAGs     dir=C:\\Users\\futatsuka\\AppData\\Ethash count=2
+INFO [05-17|14:12:58] Initialising Ethereum protocol           versions="[63 62]" network=15
+INFO [05-17|14:12:59] Loaded most recent local header          number=1582 hash=b9500e…64684f td=311100715
+INFO [05-17|14:12:59] Loaded most recent local full block      number=1582 hash=b9500e…64684f td=311100715
+INFO [05-17|14:12:59] Loaded most recent local fast block      number=1582 hash=b9500e…64684f td=311100715
+INFO [05-17|14:12:59] Loaded local transaction journal         transactions=0 dropped=0
+INFO [05-17|14:12:59] Regenerated local transaction journal    transactions=0 accounts=0
+WARN [05-17|14:12:59] Blockchain not empty, fast sync disabled 
+INFO [05-17|14:12:59] Starting P2P networking 
+INFO [05-17|14:12:59] RLPx listener up                         self="enode://39076a7c6f892e12b0919db8803c14b86e025b09383ad410271c7fa26495ba477b6a452a9eb3453541ce8eaefd018a2213a5fb590e4717f6ce0a01acbf1a67ea@[::]:30303?discport=0"
+INFO [05-17|14:12:59] IPC endpoint opened                      url=\\\\.\\pipe\\geth.ipc
+INFO [05-17|14:12:59] Etherbase automatically configured       address=0x789907Ac274004B59F1B698fe24735EE1555e1FD
+INFO [05-17|14:19:07] IPC endpoint closed                      endpoint=\\\\.\\pipe\\geth.ipc
+INFO [05-17|14:19:07] Writing cached state to disk             block=1582 hash=b9500e…64684f root=ac286a…7c96a8
+INFO [05-17|14:19:07] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-17|14:19:07] Writing cached state to disk             block=1581 hash=e392f8…2bacb6 root=c25f7e…184fbb
+INFO [05-17|14:19:07] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-17|14:19:07] Writing cached state to disk             block=1455 hash=2d79ac…11c7ac root=db74a5…229150
+INFO [05-17|14:19:07] Persisted trie from memory database      nodes=0 size=0.00B time=0s gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [05-17|14:19:07] Blockchain manager stopped 
+INFO [05-17|14:19:07] Stopping Ethereum protocol 
+INFO [05-17|14:19:07] Ethereum protocol stopped 
+INFO [05-17|14:19:07] Transaction pool stopped 
+INFO [05-17|14:19:07] Database closed                          database=u:\\geth\\test1\\geth\\chaindata

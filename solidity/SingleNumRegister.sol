@@ -5,13 +5,13 @@ contract SingleNumRegister {
         storedData = x;
     }
 
-    function get() public constant returns (uint retVal){
+    function get() public view returns (uint retVal){
         return storedData;
     }
 }
 
 contract ValTypeTest {
-    function valType() public constant returns (uint retVal){
+    function valType() public view returns (uint retVal){
         uint a;
         a = 10;
         uint b = a;
@@ -19,7 +19,7 @@ contract ValTypeTest {
         return a; // result shows 10
     }
 
-    function refType() public constant returns (uint[2] retVal){
+    function refType() public view returns (uint[2] retVal){
         uint[2] x;
         x[0] = 100;
         x[1] = 200;

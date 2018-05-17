@@ -98,3 +98,7 @@ cnt.get()
 eth.mining
 miner.stop()
 eth.accounts
+eth.blocks
+ls
+help
+eth.help
